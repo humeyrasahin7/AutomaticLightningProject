@@ -1,0 +1,27 @@
+--cpu Cortex-M4.fp
+"odevdenemeokul2\system_stm32f4xx.o"
+"odevdenemeokul2\startup_stm32f407xx.o"
+"odevdenemeokul2\stm32f4xx_hal_msp.o"
+"odevdenemeokul2\stm32f4xx_it.o"
+"odevdenemeokul2\main.o"
+"odevdenemeokul2\stm32f4xx_hal_flash.o"
+"odevdenemeokul2\stm32f4xx_hal_flash_ramfunc.o"
+"odevdenemeokul2\stm32f4xx_hal_adc.o"
+"odevdenemeokul2\stm32f4xx_hal_pwr.o"
+"odevdenemeokul2\stm32f4xx_hal_cortex.o"
+"odevdenemeokul2\stm32f4xx_hal_adc_ex.o"
+"odevdenemeokul2\stm32f4xx_hal_dma_ex.o"
+"odevdenemeokul2\stm32f4xx_hal_rcc.o"
+"odevdenemeokul2\stm32f4xx_hal.o"
+"odevdenemeokul2\stm32f4xx_hal_rcc_ex.o"
+"odevdenemeokul2\stm32f4xx_hal_flash_ex.o"
+"odevdenemeokul2\stm32f4xx_hal_dma.o"
+"odevdenemeokul2\stm32f4xx_hal_gpio.o"
+"odevdenemeokul2\stm32f4xx_hal_pwr_ex.o"
+"odevdenemeokul2\stm32f4xx_hal_tim.o"
+"odevdenemeokul2\stm32f4xx_hal_tim_ex.o"
+--library_type=microlib --strict --scatter "odevdenemeokul2\odevdenemeokul2.sct"
+
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "odevdenemeokul2.map" -o odevdenemeokul2\odevdenemeokul2.axf
